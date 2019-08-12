@@ -39,7 +39,7 @@ namespace cfw{
      * 
      * @param    pin_index           Index of the pin
      */
-    output_pin(char pin_index, init)
+    output_pin(char pin_index, auto_init)
       : output_pin(pin_index)
     {
         init();

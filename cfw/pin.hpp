@@ -23,11 +23,13 @@ namespace cfw{
    * @brief Tag struct for controller constructors
    * that allow initialization at construction time
    */
-  struct init{};
+  struct auto_init{};
     /**
    * @brief Represents a pin on chip.
    */
   struct pin{
+
+    using auto_init = cfw::auto_init;
     /**
      * @brief Pin index type
      */
