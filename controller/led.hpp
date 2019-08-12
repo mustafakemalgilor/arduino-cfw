@@ -29,6 +29,5 @@ namespace controller{
             delay(delay_ms / 2);
         }
     };
-
 }
 
